@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9143A5819EB724500E9FFC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A5719EB724500E9FFC9 /* Foundation.framework */; };
+		A9143A5A19EB724500E9FFC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A5919EB724500E9FFC9 /* CoreGraphics.framework */; };
+		A9143A5C19EB724500E9FFC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A5B19EB724500E9FFC9 /* UIKit.framework */; };
+		A9143A6219EB724500E9FFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9143A6019EB724500E9FFC9 /* InfoPlist.strings */; };
+		A9143A6419EB724500E9FFC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9143A6319EB724500E9FFC9 /* main.m */; };
+		A9143A7319EB724500E9FFC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9143A7219EB724500E9FFC9 /* Images.xcassets */; };
+		A9143A7A19EB724600E9FFC9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A7919EB724600E9FFC9 /* XCTest.framework */; };
+		A9143A7B19EB724600E9FFC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A5719EB724500E9FFC9 /* Foundation.framework */; };
+		A9143A7C19EB724600E9FFC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9143A5B19EB724500E9FFC9 /* UIKit.framework */; };
+		A9143A8419EB724600E9FFC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9143A8219EB724600E9FFC9 /* InfoPlist.strings */; };
+		A9143A8619EB724600E9FFC9 /* MagentoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9143A8519EB724600E9FFC9 /* MagentoTests.m */; };
+		A9143A9B19EB731000E9FFC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9143A9219EB731000E9FFC9 /* AppDelegate.m */; };
+		A9143A9C19EB731000E9FFC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9143A9519EB731000E9FFC9 /* ViewController.m */; };
+		A9143A9D19EB731000E9FFC9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */; };
+		A9143A9E19EB731000E9FFC9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9143A7D19EB724600E9FFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9143A4C19EB724500E9FFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9143A5319EB724500E9FFC9;
+			remoteInfo = Magento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9143A5419EB724500E9FFC9 /* Magento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9143A5719EB724500E9FFC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9143A5919EB724500E9FFC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9143A5B19EB724500E9FFC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9143A5F19EB724500E9FFC9 /* Magento-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magento-Info.plist"; sourceTree = "<group>"; };
+		A9143A6119EB724500E9FFC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9143A6319EB724500E9FFC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9143A6519EB724500E9FFC9 /* Magento-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magento-Prefix.pch"; sourceTree = "<group>"; };
+		A9143A7219EB724500E9FFC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9143A7819EB724600E9FFC9 /* MagentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagentoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9143A7919EB724600E9FFC9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9143A8119EB724600E9FFC9 /* MagentoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagentoTests-Info.plist"; sourceTree = "<group>"; };
+		A9143A8319EB724600E9FFC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9143A8519EB724600E9FFC9 /* MagentoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagentoTests.m; sourceTree = "<group>"; };
+		A9143A9119EB731000E9FFC9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9143A9219EB731000E9FFC9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9143A9419EB731000E9FFC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9143A9519EB731000E9FFC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9143A5119EB724500E9FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A5A19EB724500E9FFC9 /* CoreGraphics.framework in Frameworks */,
+				A9143A5C19EB724500E9FFC9 /* UIKit.framework in Frameworks */,
+				A9143A5819EB724500E9FFC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9143A7519EB724600E9FFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A7A19EB724600E9FFC9 /* XCTest.framework in Frameworks */,
+				A9143A7C19EB724600E9FFC9 /* UIKit.framework in Frameworks */,
+				A9143A7B19EB724600E9FFC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9143A4B19EB724500E9FFC9 = {
+			isa = PBXGroup;
+			children = (
+				A9143A5D19EB724500E9FFC9 /* Magento */,
+				A9143A7F19EB724600E9FFC9 /* MagentoTests */,
+				A9143A5619EB724500E9FFC9 /* Frameworks */,
+				A9143A5519EB724500E9FFC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9143A5519EB724500E9FFC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A5419EB724500E9FFC9 /* Magento.app */,
+				A9143A7819EB724600E9FFC9 /* MagentoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9143A5619EB724500E9FFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A5719EB724500E9FFC9 /* Foundation.framework */,
+				A9143A5919EB724500E9FFC9 /* CoreGraphics.framework */,
+				A9143A5B19EB724500E9FFC9 /* UIKit.framework */,
+				A9143A7919EB724600E9FFC9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9143A5D19EB724500E9FFC9 /* Magento */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A8F19EB731000E9FFC9 /* Classes */,
+				A9143A9619EB731000E9FFC9 /* OtherClass */,
+				A9143A9719EB731000E9FFC9 /* Resources */,
+				A9143A9819EB731000E9FFC9 /* StoryBoard */,
+				A9143A7219EB724500E9FFC9 /* Images.xcassets */,
+				A9143A5E19EB724500E9FFC9 /* Supporting Files */,
+			);
+			path = Magento;
+			sourceTree = "<group>";
+		};
+		A9143A5E19EB724500E9FFC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A5F19EB724500E9FFC9 /* Magento-Info.plist */,
+				A9143A6019EB724500E9FFC9 /* InfoPlist.strings */,
+				A9143A6319EB724500E9FFC9 /* main.m */,
+				A9143A6519EB724500E9FFC9 /* Magento-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9143A7F19EB724600E9FFC9 /* MagentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A8519EB724600E9FFC9 /* MagentoTests.m */,
+				A9143A8019EB724600E9FFC9 /* Supporting Files */,
+			);
+			path = MagentoTests;
+			sourceTree = "<group>";
+		};
+		A9143A8019EB724600E9FFC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A8119EB724600E9FFC9 /* MagentoTests-Info.plist */,
+				A9143A8219EB724600E9FFC9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9143A8F19EB731000E9FFC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A9019EB731000E9FFC9 /* Appdelegate */,
+				A9143A9319EB731000E9FFC9 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9143A9019EB731000E9FFC9 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A9119EB731000E9FFC9 /* AppDelegate.h */,
+				A9143A9219EB731000E9FFC9 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		A9143A9319EB731000E9FFC9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A9419EB731000E9FFC9 /* ViewController.h */,
+				A9143A9519EB731000E9FFC9 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A9143A9619EB731000E9FFC9 /* OtherClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherClass;
+			sourceTree = "<group>";
+		};
+		A9143A9719EB731000E9FFC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9143A9819EB731000E9FFC9 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */,
+				A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9143A5319EB724500E9FFC9 /* Magento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9143A8919EB724600E9FFC9 /* Build configuration list for PBXNativeTarget "Magento" */;
+			buildPhases = (
+				A9143A5019EB724500E9FFC9 /* Sources */,
+				A9143A5119EB724500E9FFC9 /* Frameworks */,
+				A9143A5219EB724500E9FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magento;
+			productName = Magento;
+			productReference = A9143A5419EB724500E9FFC9 /* Magento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9143A7719EB724600E9FFC9 /* MagentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9143A8C19EB724600E9FFC9 /* Build configuration list for PBXNativeTarget "MagentoTests" */;
+			buildPhases = (
+				A9143A7419EB724600E9FFC9 /* Sources */,
+				A9143A7519EB724600E9FFC9 /* Frameworks */,
+				A9143A7619EB724600E9FFC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9143A7E19EB724600E9FFC9 /* PBXTargetDependency */,
+			);
+			name = MagentoTests;
+			productName = MagentoTests;
+			productReference = A9143A7819EB724600E9FFC9 /* MagentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9143A4C19EB724500E9FFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A9143A7719EB724600E9FFC9 = {
+						TestTargetID = A9143A5319EB724500E9FFC9;
+					};
+				};
+			};
+			buildConfigurationList = A9143A4F19EB724500E9FFC9 /* Build configuration list for PBXProject "Magento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9143A4B19EB724500E9FFC9;
+			productRefGroup = A9143A5519EB724500E9FFC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9143A5319EB724500E9FFC9 /* Magento */,
+				A9143A7719EB724600E9FFC9 /* MagentoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9143A5219EB724500E9FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A9E19EB731000E9FFC9 /* Main_iPhone.storyboard in Resources */,
+				A9143A9D19EB731000E9FFC9 /* Main_iPad.storyboard in Resources */,
+				A9143A7319EB724500E9FFC9 /* Images.xcassets in Resources */,
+				A9143A6219EB724500E9FFC9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9143A7619EB724600E9FFC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A8419EB724600E9FFC9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9143A5019EB724500E9FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A9C19EB731000E9FFC9 /* ViewController.m in Sources */,
+				A9143A9B19EB731000E9FFC9 /* AppDelegate.m in Sources */,
+				A9143A6419EB724500E9FFC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9143A7419EB724600E9FFC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9143A8619EB724600E9FFC9 /* MagentoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9143A7E19EB724600E9FFC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9143A5319EB724500E9FFC9 /* Magento */;
+			targetProxy = A9143A7D19EB724600E9FFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9143A6019EB724500E9FFC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9143A6119EB724500E9FFC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9143A8219EB724600E9FFC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9143A8319EB724600E9FFC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9143A8719EB724600E9FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9143A8819EB724600E9FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9143A8A19EB724600E9FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magento/Magento-Prefix.pch";
+				INFOPLIST_FILE = "Magento/Magento-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9143A8B19EB724600E9FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magento/Magento-Prefix.pch";
+				INFOPLIST_FILE = "Magento/Magento-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9143A8D19EB724600E9FFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magento.app/Magento";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magento/Magento-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MagentoTests/MagentoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9143A8E19EB724600E9FFC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Magento.app/Magento";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magento/Magento-Prefix.pch";
+				INFOPLIST_FILE = "MagentoTests/MagentoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9143A4F19EB724500E9FFC9 /* Build configuration list for PBXProject "Magento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9143A8719EB724600E9FFC9 /* Debug */,
+				A9143A8819EB724600E9FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9143A8919EB724600E9FFC9 /* Build configuration list for PBXNativeTarget "Magento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9143A8A19EB724600E9FFC9 /* Debug */,
+				A9143A8B19EB724600E9FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9143A8C19EB724600E9FFC9 /* Build configuration list for PBXNativeTarget "MagentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9143A8D19EB724600E9FFC9 /* Debug */,
+				A9143A8E19EB724600E9FFC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9143A4C19EB724500E9FFC9 /* Project object */;
+}
