@@ -23,6 +23,7 @@
 		A9143A9D19EB731000E9FFC9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */; };
 		A9143A9E19EB731000E9FFC9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */; };
 		A9143AA019EB7F8800E9FFC9 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9F19EB7F8800E9FFC9 /* welcome.jpg */; };
+		A954E73A19F0BC9900A72E29 /* LoginScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A954E73919F0BC9900A72E29 /* LoginScreenVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A9143A9F19EB7F8800E9FFC9 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
+		A954E73819F0BC9900A72E29 /* LoginScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreenVC.h; sourceTree = "<group>"; };
+		A954E73919F0BC9900A72E29 /* LoginScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreenVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 		A9143A8F19EB731000E9FFC9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A954E73719F0BC6C00A72E29 /* LoginScreen */,
 				A9143A9019EB731000E9FFC9 /* Appdelegate */,
 				A9143A9319EB731000E9FFC9 /* ViewController */,
 			);
@@ -204,6 +208,15 @@
 				A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */,
 			);
 			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A954E73719F0BC6C00A72E29 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A954E73819F0BC9900A72E29 /* LoginScreenVC.h */,
+				A954E73919F0BC9900A72E29 /* LoginScreenVC.m */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A954E73A19F0BC9900A72E29 /* LoginScreenVC.m in Sources */,
 				A9143A9C19EB731000E9FFC9 /* ViewController.m in Sources */,
 				A9143A9B19EB731000E9FFC9 /* AppDelegate.m in Sources */,
 				A9143A6419EB724500E9FFC9 /* main.m in Sources */,
