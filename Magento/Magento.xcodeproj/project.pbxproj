@@ -22,6 +22,7 @@
 		A9143A9C19EB731000E9FFC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9143A9519EB731000E9FFC9 /* ViewController.m */; };
 		A9143A9D19EB731000E9FFC9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */; };
 		A9143A9E19EB731000E9FFC9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */; };
+		A9143AA019EB7F8800E9FFC9 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9143A9F19EB7F8800E9FFC9 /* welcome.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A9143A9519EB731000E9FFC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9143A9919EB731000E9FFC9 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		A9143A9A19EB731000E9FFC9 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A9143A9F19EB7F8800E9FFC9 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = welcome.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 		A9143A9719EB731000E9FFC9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A9143A9F19EB7F8800E9FFC9 /* welcome.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9143A9E19EB731000E9FFC9 /* Main_iPhone.storyboard in Resources */,
+				A9143AA019EB7F8800E9FFC9 /* welcome.jpg in Resources */,
 				A9143A9D19EB731000E9FFC9 /* Main_iPad.storyboard in Resources */,
 				A9143A7319EB724500E9FFC9 /* Images.xcassets in Resources */,
 				A9143A6219EB724500E9FFC9 /* InfoPlist.strings in Resources */,
